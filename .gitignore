@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Generated outputs & test artifacts
+output.lua
+*.ws.luau
+wabisabi_run_*.luau
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

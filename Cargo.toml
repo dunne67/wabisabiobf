@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/wabisabi-syntax",
+    "crates/wabisabi-ir",
+    "crates/wabisabi-vm",
+    "crates/wabisabi-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"

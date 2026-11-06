@@ -1,0 +1,7 @@
+# Wabi Sabi — identifier seed words
+# Paste words below, separated by commas, spaces, or newlines.
+# Lines starting with '#' are ignored. Each word must start with a letter.
+# The minifier builds variable names by combining these words and appending
+# numbers, e.g. waffles, pancakes, wafflespancakes1, pancakeswaffles12.
+
+pancakes, waffles
