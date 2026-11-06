@@ -27,7 +27,7 @@
 - **Basic-Block Analysis**: Identifies high-frequency straight-line instruction sequences and fuses them into atomic multi-operation handlers.
 - **Slot Invariance**: Preserves jump target alignment using chaff-filled physical slots without exposing basic block boundaries.
 
-### 4. Moonveil Single-Line Minifier
+### 4. Single-Line Minifier
 - **Scope-Aware Lexical Renaming**: Replaces variables with compact 1–2 character identifiers while preserving parent-child scope isolation and global access.
 - **Custom Dictionary Seeding**: Supports user-defined seed words (`names.txt`) to synthesize themed identifiers.
 - **Radix85 Armor**: Compacts binary containers using `'z'`-compressed base-85 ASCII encoding.
